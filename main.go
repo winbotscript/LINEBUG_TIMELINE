@@ -29,7 +29,7 @@ const (
 	timelinefeed  = `{"postLimit": 10, "commentLimit": 1, "likeLimit": 20, "order": "TIME"}`//method >> GET
 	timelinegroup = `{"homeId": "Mid", "commentLimit": 1, "likeLimit": 20, "sourceType": "TALKLOOM"}`//method >> GET
 	timelineStr   = `{"postInfo": {"readPermission": {"type": "NONE"}}, "sourceType": "TIMELINE", "contents": {"text": "#TEST"}}`//method >> POST
-	timelinelike  = `{"contentId": "postId, "actorId": "Mid", "likeType": "1001", "sharable": true}`//method >> POST
+	timelinelike  = `{"contentId": "postId", "actorId": "Mid", "likeType": "1001", "sharable": true}`//method >> POST
 	timelinecome  = `{"contentId": "postId", "commentText": "mhgfdsa", "actorId": "Mid"}`//meyhod >> POST
 	timelinetest  = `{"postInfo": {"readPermission": {"type": "ALL"}}, "sourceType": "TIMELINE", "contents": {"text": ""}}`
 )
