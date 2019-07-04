@@ -46,8 +46,8 @@ func main() {
 	req.Header.Add("User-Agent", "Line/9.8.0")
 	req.Header.Add("X-Line-Carrier", "44010, 1")
 	req.Header.Add("X-Line-Mid", "Mid")
-    req.Header.Add("X-Line-Application", "IOS\t9.8.0\tiOS\t12.3.1")
-    req.Header.Add("X-LAL", "ja")
+        req.Header.Add("X-Line-Application", "IOS\t9.8.0\tiOS\t12.3.1")
+        req.Header.Add("X-LAL", "ja")
 	req.Header.Add("X-Line-ChannelToken", "token")
 
 	client := new(http.Client)
