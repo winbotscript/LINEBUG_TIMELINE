@@ -20,7 +20,7 @@ const (
 	HASHTAG_URL  = HOST + "/mh/api/v30/hashtag/search.json"
 	UPDATE_URL   = HOST + "/mh/api/v39/post/update.json"
 	LIKE_URL     = HOST + "/mh/api/v39/like/create.json"//timelinelike
-	COMEMENT_URL = HOST + "/mh/api/v39/comment/create.json"//timelinecomement
+	COMEMENT_URL = HOST + "/mh/api/v39/comment/create.json"//timelinecomment
 )
 
 // Parameter
@@ -30,7 +30,7 @@ const (
 	timelinegroup = `{"homeId": "Mid", "commentLimit": 1, "likeLimit": 20, "sourceType": "TALKLOOM"}`//method >> GET
 	timelineStr   = `{"postInfo": {"readPermission": {"type": "NONE"}}, "sourceType": "TIMELINE", "contents": {"text": "#TEST"}}`//method >> POST
 	timelinelike  = `{"contentId": "postId", "actorId": "Mid", "likeType": "1001", "sharable": true}`//method >> POST
-	timelinecome  = `{"contentId": "postId", "commentText": "mhgfdsa", "actorId": "Mid"}`//meyhod >> POST
+	timelinecome  = `{"contentId": "postId", "commentText": "mhgfdsa", "actorId": "Mid"}`//method >> POST
 	timelinetest  = `{"postInfo": {"readPermission": {"type": "ALL"}}, "sourceType": "TIMELINE", "contents": {"text": ""}}`
 )
 
